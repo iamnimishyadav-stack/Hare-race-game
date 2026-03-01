@@ -1,0 +1,31 @@
+body {
+    text-align:center;
+    font-family:sans-serif;
+    background:#d0f0c0;
+}
+
+#track {
+    position:relative;
+    height:200px;
+    border:4px solid #333;
+    margin:20px;
+    background:url('https://i.imgur.com/7b1mYzL.png');
+    background-size:cover;
+    overflow:hidden;
+}
+
+#hare, #tortoise {
+    position:absolute;
+    font-size:40px;
+    transition: left 0.2s linear;
+}
+
+#hare { top:40px; left:0; }
+#tortoise { top:120px; left:0; }
+
+button {
+    width:80%;
+    padding:15px;
+    margin:10px;
+    font-size:18px;
+}
